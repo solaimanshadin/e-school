@@ -1,0 +1,60 @@
+body{
+    font-family: Poppins;
+}
+*{
+    transition: .3s all ease;
+}
+.cool-bg{
+    background-color: #F0FFF0;
+}
+.btn-success{
+    background-color: #21B573 !important;
+    border-color: #21B573 !important;
+}
+.text-success{
+    color: #21B573 !important;
+}
+.btn-rounded{
+    border-radius: 2rem;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+p{
+    line-height: 2em;
+}
+/* ======== Navbar ======== */
+.navbar-brand img{
+    height: 60px;
+}
+/* ======== services ======== */
+.single-service{
+    border-radius: 5px;
+}
+.single-service img{
+    width: 70px;
+}
+.single-service:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/* ========= Courses ======== */
+.courses .course-info img{
+    height: 24px;
+}
+.courses .card{
+    padding: 10px;
+    border:0 !important;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+/* ========= footer ======== */
+footer a{
+    color: #FFFFFF;
+}
+
+@media (max-width:777px){
+    .testimonial img{
+        max-width: 140px;
+    }
+}
+
